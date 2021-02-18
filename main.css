@@ -264,13 +264,19 @@ label:hover{
     }
     .container{
         width: 200px;
+        padding: 0px;
+        margin: 0px;
     }
-    .container img, .container video{
+    .container img{
+        width: 200px; 
+    } 
+    .container video{
         width: 200px; 
         height: 355px;
     }
-    .container p{
-        font-size: 9.5px;
+    #overlay p{
+        font-size: 12px;
+        padding: 20px 10px;
     }
 }
 @media only screen and (max-width : 405px){
