@@ -10,7 +10,7 @@ function eyetoggle(){
 
 // jeffownslinda
 function unlock(){
-  if(document.getElementById('password-input').value == 'jeffownslinda'){
+  if(document.getElementById('password-input').value == 'jeffandlinda'){
     document.getElementById('lock-page').style.display = 'none';
     document.getElementById('home').style.display = 'block';
     document.getElementById('navheader').style.display = 'flex';
@@ -18,7 +18,7 @@ function unlock(){
     shuffle(quoteSource).slice();
     shuffleQuote();
   }else{
-    alert('Wrong Password babe, go ask your master...');
+    alert('Wrong Password babe, go ask your bf...');
   }
 }
 
